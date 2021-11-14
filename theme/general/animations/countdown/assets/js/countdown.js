@@ -25,7 +25,6 @@ class Countdown {
         this.writeToSpan(this.$secondsSpan, this.seconds);
     }
     launch() {
-        console.log('coucou');
         if (this.minutes === 0 && this.seconds === 0) {
             clearInterval(this.intervalId);
             return;
@@ -41,8 +40,6 @@ class Countdown {
 
         this.seconds = this.seconds - 1;
         this.writeToSpan(this.$secondsSpan, this.seconds);
-
-
     }
     writeToSpan($span, time) {
         let result = time;
