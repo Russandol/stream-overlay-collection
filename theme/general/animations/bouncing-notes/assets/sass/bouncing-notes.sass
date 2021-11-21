@@ -1,0 +1,48 @@
+$bounceTimer: 0
+$moveRightTimer: 0
+
+body
+  margin: 0
+
+.container
+  align-items: center
+  display: flex
+  height: 60px
+  position: relative
+  width: 1920px
+
+.note
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 30px
+  left: -30px
+  position: absolute
+  width: 30px
+
+  &:nth-child(even)
+    background-image: url("../img/icon/note-double.png")
+
+  &:nth-child(odd)
+    background-image: url("../img/icon/note-simple.png")
+
+  @for $i from 1 through 40
+    $bounceTimer: $bounceTimer + .2
+    $moveRightTimer: $moveRightTimer + 0.5
+
+    &:nth-child(#{$i})
+      animation: 1.5s ease-in-out #{$bounceTimer}s infinite bounce, 20s linear #{$moveRightTimer}s infinite moveRight
+
+@keyframes bounce
+  0%
+    transform: translateY(-15px)
+  50%
+    transform: translateY(15px)
+  100%
+    transform: translateY(-15px)
+
+@keyframes moveRight
+  0%
+    left: -30px
+  100%
+    left: calc(100% - 30px)

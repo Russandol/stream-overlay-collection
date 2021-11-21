@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  position: relative;
+  width: 1920px;
+}
+
+.note {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  left: -30px;
+  position: absolute;
+  width: 30px;
+}
+.note:nth-child(even) {
+  background-image: url("../img/icon/note-double.png");
+}
+.note:nth-child(odd) {
+  background-image: url("../img/icon/note-simple.png");
+}
+.note:nth-child(1) {
+  animation: 1.5s ease-in-out 0.2s infinite bounce, 20s linear 0.5s infinite moveRight;
+}
+.note:nth-child(2) {
+  animation: 1.5s ease-in-out 0.4s infinite bounce, 20s linear 1s infinite moveRight;
+}
+.note:nth-child(3) {
+  animation: 1.5s ease-in-out 0.6s infinite bounce, 20s linear 1.5s infinite moveRight;
+}
+.note:nth-child(4) {
+  animation: 1.5s ease-in-out 0.8s infinite bounce, 20s linear 2s infinite moveRight;
+}
+.note:nth-child(5) {
+  animation: 1.5s ease-in-out 1s infinite bounce, 20s linear 2.5s infinite moveRight;
+}
+.note:nth-child(6) {
+  animation: 1.5s ease-in-out 1.2s infinite bounce, 20s linear 3s infinite moveRight;
+}
+.note:nth-child(7) {
+  animation: 1.5s ease-in-out 1.4s infinite bounce, 20s linear 3.5s infinite moveRight;
+}
+.note:nth-child(8) {
+  animation: 1.5s ease-in-out 1.6s infinite bounce, 20s linear 4s infinite moveRight;
+}
+.note:nth-child(9) {
+  animation: 1.5s ease-in-out 1.8s infinite bounce, 20s linear 4.5s infinite moveRight;
+}
+.note:nth-child(10) {
+  animation: 1.5s ease-in-out 2s infinite bounce, 20s linear 5s infinite moveRight;
+}
+.note:nth-child(11) {
+  animation: 1.5s ease-in-out 2.2s infinite bounce, 20s linear 5.5s infinite moveRight;
+}
+.note:nth-child(12) {
+  animation: 1.5s ease-in-out 2.4s infinite bounce, 20s linear 6s infinite moveRight;
+}
+.note:nth-child(13) {
+  animation: 1.5s ease-in-out 2.6s infinite bounce, 20s linear 6.5s infinite moveRight;
+}
+.note:nth-child(14) {
+  animation: 1.5s ease-in-out 2.8s infinite bounce, 20s linear 7s infinite moveRight;
+}
+.note:nth-child(15) {
+  animation: 1.5s ease-in-out 3s infinite bounce, 20s linear 7.5s infinite moveRight;
+}
+.note:nth-child(16) {
+  animation: 1.5s ease-in-out 3.2s infinite bounce, 20s linear 8s infinite moveRight;
+}
+.note:nth-child(17) {
+  animation: 1.5s ease-in-out 3.4s infinite bounce, 20s linear 8.5s infinite moveRight;
+}
+.note:nth-child(18) {
+  animation: 1.5s ease-in-out 3.6s infinite bounce, 20s linear 9s infinite moveRight;
+}
+.note:nth-child(19) {
+  animation: 1.5s ease-in-out 3.8s infinite bounce, 20s linear 9.5s infinite moveRight;
+}
+.note:nth-child(20) {
+  animation: 1.5s ease-in-out 4s infinite bounce, 20s linear 10s infinite moveRight;
+}
+.note:nth-child(21) {
+  animation: 1.5s ease-in-out 4.2s infinite bounce, 20s linear 10.5s infinite moveRight;
+}
+.note:nth-child(22) {
+  animation: 1.5s ease-in-out 4.4s infinite bounce, 20s linear 11s infinite moveRight;
+}
+.note:nth-child(23) {
+  animation: 1.5s ease-in-out 4.6s infinite bounce, 20s linear 11.5s infinite moveRight;
+}
+.note:nth-child(24) {
+  animation: 1.5s ease-in-out 4.8s infinite bounce, 20s linear 12s infinite moveRight;
+}
+.note:nth-child(25) {
+  animation: 1.5s ease-in-out 5s infinite bounce, 20s linear 12.5s infinite moveRight;
+}
+.note:nth-child(26) {
+  animation: 1.5s ease-in-out 5.2s infinite bounce, 20s linear 13s infinite moveRight;
+}
+.note:nth-child(27) {
+  animation: 1.5s ease-in-out 5.4s infinite bounce, 20s linear 13.5s infinite moveRight;
+}
+.note:nth-child(28) {
+  animation: 1.5s ease-in-out 5.6s infinite bounce, 20s linear 14s infinite moveRight;
+}
+.note:nth-child(29) {
+  animation: 1.5s ease-in-out 5.8s infinite bounce, 20s linear 14.5s infinite moveRight;
+}
+.note:nth-child(30) {
+  animation: 1.5s ease-in-out 6s infinite bounce, 20s linear 15s infinite moveRight;
+}
+.note:nth-child(31) {
+  animation: 1.5s ease-in-out 6.2s infinite bounce, 20s linear 15.5s infinite moveRight;
+}
+.note:nth-child(32) {
+  animation: 1.5s ease-in-out 6.4s infinite bounce, 20s linear 16s infinite moveRight;
+}
+.note:nth-child(33) {
+  animation: 1.5s ease-in-out 6.6s infinite bounce, 20s linear 16.5s infinite moveRight;
+}
+.note:nth-child(34) {
+  animation: 1.5s ease-in-out 6.8s infinite bounce, 20s linear 17s infinite moveRight;
+}
+.note:nth-child(35) {
+  animation: 1.5s ease-in-out 7s infinite bounce, 20s linear 17.5s infinite moveRight;
+}
+.note:nth-child(36) {
+  animation: 1.5s ease-in-out 7.2s infinite bounce, 20s linear 18s infinite moveRight;
+}
+.note:nth-child(37) {
+  animation: 1.5s ease-in-out 7.4s infinite bounce, 20s linear 18.5s infinite moveRight;
+}
+.note:nth-child(38) {
+  animation: 1.5s ease-in-out 7.6s infinite bounce, 20s linear 19s infinite moveRight;
+}
+.note:nth-child(39) {
+  animation: 1.5s ease-in-out 7.8s infinite bounce, 20s linear 19.5s infinite moveRight;
+}
+.note:nth-child(40) {
+  animation: 1.5s ease-in-out 8s infinite bounce, 20s linear 20s infinite moveRight;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes moveRight {
+  0% {
+    left: -30px;
+  }
+  100% {
+    left: calc(100% - 30px);
+  }
+}
+
+/*# sourceMappingURL=bouncing-notes.css.map */
