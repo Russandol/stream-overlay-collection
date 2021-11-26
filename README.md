@@ -12,6 +12,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 #### Animations
 
 - bouncing-notes : un bandeau de notes de musiques qui rebondissent
+- confetti : un peu de festival dans votre stream
 - countdown : un compte à rebours
 
 #### Track matte transitions
