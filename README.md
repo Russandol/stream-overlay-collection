@@ -17,6 +17,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 #### Track matte transitions
 
+- heart
 - rorschach ink
 
 ### Christmas
@@ -29,6 +30,14 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 - snowflake
 - stars
+
+### Games
+
+#### Final Fantasy
+
+##### Track matte transitions
+
+- chocobo
 
 ### Halloween
 
