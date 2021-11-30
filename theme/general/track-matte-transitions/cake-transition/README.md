@@ -2,7 +2,7 @@
 
 ## Description
 
-![Exemple]()
+![Exemple](assets/img/example.gif)
 
 Transition de scène de type Track Matte à partir d'une silhouette de gâteau.
 
@@ -22,4 +22,4 @@ Pour utiliser cette transition, suivez les instructions suivantes :
 
 ## Sources
 
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
