@@ -17,6 +17,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 #### Webcam masks
 
+- triangle point down
 - vertical rectangle rounded edge
 
 #### Track matte transitions
