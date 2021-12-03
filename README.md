@@ -15,6 +15,10 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 - confetti : un peu de festival dans votre stream
 - countdown : un compte à rebours
 
+#### Webcam masks
+
+- vertical rectangle rounded edge
+
 #### Track matte transitions
 
 - cake
