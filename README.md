@@ -25,6 +25,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 - cake
 - heart
+- ink splash
 - rorschach ink
 
 ### Christmas
