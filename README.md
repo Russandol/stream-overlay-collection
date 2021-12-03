@@ -24,6 +24,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 #### Track matte transitions
 
 - cake
+- crown
 - heart
 - ink splash
 - rorschach ink
