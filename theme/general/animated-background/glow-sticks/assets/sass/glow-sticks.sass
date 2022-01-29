@@ -1,0 +1,104 @@
+body
+  margin: 0
+  height: 100vh
+  font-weight: 100
+  background: radial-gradient(#a23982,#1f1013)
+  overflow-y: hidden
+  animation: fadeIn 1 1s ease-out
+
+.light
+  position: absolute
+  width: 0
+  opacity: .75
+  background-color: white
+  box-shadow: #e9f1f1 0 0 20px 2px
+  top: 100vh
+  bottom: 0
+  left: 0
+  right: 0
+  margin: auto
+
+.x1
+  animation: floatUp 4s infinite linear
+  transform: scale(1.0)
+
+.x2
+  animation: floatUp 7s infinite linear
+  transform: scale(1.6)
+  left: 15%
+
+.x3
+  animation: floatUp 2.5s infinite linear
+  transform: scale(.5)
+  left: -15%
+
+.x4
+  animation: floatUp 4.5s infinite linear
+  transform: scale(1.2)
+  left: -34%
+
+.x5
+  animation: floatUp 8s infinite linear
+  transform: scale(2.2)
+  left: -57%
+
+.x6
+  animation: floatUp 3s infinite linear
+  transform: scale(.8)
+  left: -81%
+
+.x7
+  animation: floatUp 5.3s infinite linear
+  transform: scale(3.2)
+  left: 37%
+
+.x8
+  animation: floatUp 4.7s infinite linear
+  transform: scale(1.7)
+  left: 62%
+
+.x9
+  animation: floatUp 4.1s infinite linear
+  transform: scale(0.9)
+  left: 85%
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes fadeOut
+  0%
+    opacity: 0
+  30%
+    opacity: 1
+  80%
+    opacity: .9
+  100%
+    opacity: 0
+
+@keyframes finalFade
+  0%
+    opacity: 0
+  30%
+    opacity: 1
+  80%
+    opacity: .9
+  100%
+    opacity: 1
+
+@keyframes floatUp
+  0%
+    top: 100vh
+    opacity: 0
+  25%
+    opacity: 1
+  50%
+    top: 0
+    opacity: .8
+  75%
+    opacity: 1
+  100%
+    top: -100vh
+    opacity: 0

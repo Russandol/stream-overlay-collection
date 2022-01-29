@@ -32,6 +32,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 #### Fond animé
 
 - floating color orbs
+- glow sticks
 - matrix effect
 - parallax pixel stars
 
