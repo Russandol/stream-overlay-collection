@@ -33,6 +33,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 - floating color orbs
 - matrix effect
+- parallax pixel stars
 
 ### Christmas
 
