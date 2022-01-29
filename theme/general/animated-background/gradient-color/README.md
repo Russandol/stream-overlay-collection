@@ -14,6 +14,7 @@ Pour utiliser le fond animé, suivez les étapes suivantes :
   champ "_URL_" entrez le chemin du fichier, par exemple : `c:/mon-dossier/gradient-color.html`.
 - Dans le champ "Largeur", mettre "1920"
 - Dans le champ "Hauteur", mettre "1080"
+- Dans le champ "CSS personnalisé", retirer tout
 
 ## Sources
 
