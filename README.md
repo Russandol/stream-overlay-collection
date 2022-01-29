@@ -31,7 +31,8 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 #### Fond animé
 
-- matrix-effect
+- floating color orbs
+- matrix effect
 
 ### Christmas
 
