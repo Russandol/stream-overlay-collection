@@ -33,8 +33,10 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 - floating color orbs
 - glow sticks
+- gradient-color
 - matrix effect
 - parallax pixel stars
+- sakura fall
 
 ### Christmas
 
