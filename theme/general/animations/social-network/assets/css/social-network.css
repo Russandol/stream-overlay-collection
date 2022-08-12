@@ -1,0 +1,61 @@
+.container {
+  padding: 30px;
+}
+.container .social-network {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.container .social-network.facebook .logo {
+  background-image: url("../img/facebook.png");
+}
+.container .social-network.instagram .logo {
+  background-image: url("../img/instagram.png");
+}
+.container .social-network.twitter .logo {
+  background-image: url("../img/twitter.png");
+}
+.container .social-network.youtube .logo {
+  background-image: url("../img/youtube.png");
+}
+.container .social-network .logo {
+  background-size: contain;
+  display: none;
+  height: 100px;
+  width: 100px;
+  z-index: 10;
+}
+.container .social-network .block-text {
+  background: #010C50;
+  display: none;
+  font-size: 50px;
+  padding: 5px 15px 5px 120px;
+  position: absolute;
+}
+.container .social-network .block-text::after {
+  content: "";
+  border-style: solid;
+  border-width: 68px 20px 0 0;
+  border-color: #010C50 transparent transparent transparent;
+  height: 0;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 0;
+}
+.container .social-network .block-text::before {
+  content: "";
+  border-style: solid;
+  border-width: 0 0 68px 20px;
+  border-color: transparent transparent #010C50 transparent;
+  height: 0;
+  left: -20px;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.container .social-network .block-text .text {
+  color: white;
+}
+
+/*# sourceMappingURL=social-network.css.map */

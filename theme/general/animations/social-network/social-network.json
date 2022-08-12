@@ -1,0 +1,20 @@
+{
+  "socialNetworks": [
+    {
+      "name": "facebook",
+      "pseudo": "pseudo facebook"
+    },
+    {
+      "name": "instagram",
+      "pseudo": "pseudo instagram"
+    },
+    {
+      "name": "youtube",
+      "pseudo": "pseudo youtube"
+    },
+    {
+      "name": "twitter",
+      "pseudo": "pseudo twitter"
+    }
+  ]
+}
