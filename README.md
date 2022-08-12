@@ -42,7 +42,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
 #### Animations
 
-- snow fall : chutte de neige sur votre écran
+- snow fall : chute de neige sur votre écran
 
 #### Track matte transitions
 
@@ -56,6 +56,12 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 ##### Track matte transitions
 
 - chocobo
+
+#### Super Mario Bros
+
+##### Animations
+
+- Mario Walk
 
 ### Halloween
 

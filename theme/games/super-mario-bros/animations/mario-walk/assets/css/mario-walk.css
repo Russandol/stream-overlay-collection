@@ -1,0 +1,25 @@
+.container {
+  height: 100px;
+  position: relative;
+  width: 1920px;
+}
+.container img {
+  animation: 8s linear walk;
+  bottom: 0;
+  left: -60px;
+  position: absolute;
+}
+.container img.mario {
+  height: 70px;
+}
+
+@keyframes walk {
+  from {
+    left: -60px;
+  }
+  to {
+    left: 1980px;
+  }
+}
+
+/*# sourceMappingURL=mario-walk.css.map */

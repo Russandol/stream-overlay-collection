@@ -1,0 +1,19 @@
+.container
+  height: 100px
+  position: relative
+  width: 1920px
+
+  img
+    animation: 8s linear walk
+    bottom: 0
+    left: -60px
+    position: absolute
+
+    &.mario
+      height: 70px
+
+@keyframes walk
+  from
+    left: -60px
+  to
+    left: 1980px
