@@ -1,12 +1,13 @@
-$bandeau-color: blue
+$bandeau-color: #010C50
 $text-color: white
 
 .container
   padding: 30px
 
   .social-network
-    display: flex
     align-items: center
+    display: flex
+    position: relative
 
     &.facebook
       .logo
@@ -25,8 +26,6 @@ $text-color: white
         background-image: url("../img/youtube.png")
 
     .logo
-      animation: tada
-      animation-duration: 2s
       background-size: contain
       display: none
       height: 100px
@@ -34,13 +33,11 @@ $text-color: white
       z-index: 10
 
     .block-text
-      animation: rotateInDownLeft
-      animation-duration: 1s
       background: $bandeau-color
       display: none
       font-size: 50px
-      padding: 5px 15px
-      position: relative
+      padding: 5px 15px 5px 120px
+      position: absolute
 
       &::after
         content: ""

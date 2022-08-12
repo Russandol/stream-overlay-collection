@@ -1,23 +1,54 @@
 window.onload = function() {
-    setTimeout(function() {
-        $('.logo').css('display', 'block');
-        $('.block-text').css('display', 'block');
-    }, 3000)
+    let json = null;
 
-    setTimeout(function() {
-        $('.block-text').css('display', 'block');
-    }, 4000)
+    $.getJSON("./social-network.json", (result) => {
+        json = result.socialNetworks;
+    }).then(() => {
+        appear(0);
+    });
 
-
-    /*$.getJSON('./assets/json/social-network.json', function(json) {
-        let socialNetworks = json.socialNetworks;
-        let html = '';
-
-        for (let i = 0; i < socialNetworks; i++) {
-            let socialNetwork = socialNetworks[i];
-
-            html += '<div class="social-network ' + socialNetwork.name + '">'
-            html += '</div>';
+    function appear(nbr) {
+        if (json[nbr].pseudo === "") {
+            nbr = nbr + 1;
         }
-    });*/
+
+        if (nbr === json.length) {
+            nbr = 0;
+        }
+
+        let socialNetwork = json[nbr];
+
+        nbr = nbr + 1;
+
+        $('.social-network').addClass(socialNetwork.name);
+        $('.social-network .text').text(socialNetwork.pseudo);
+
+        $('.logo').addClass("animate__tada");
+        $('.logo').css("display", "block");
+
+        $('.block-text').addClass("animate__flipInX");
+        $('.block-text').css("display", "block");
+
+        sleep(3000).then(() => {
+            $('.social-network').removeClass(socialNetwork.name);
+            $('.social-network .text').text("");
+
+            $('.logo').removeClass("animate__tada");
+            $('.block-text').removeClass("animate__flipInX");
+
+            $('.logo').css("display", "none");
+            $('.block-text').css("display", "none");
+
+            sleep(50).then(() => {
+                appear(nbr);
+            });
+        });
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 };
+
+
+

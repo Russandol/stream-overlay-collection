@@ -2,19 +2,19 @@
   "socialNetworks": [
     {
       "name": "facebook",
-      "pseudo": "vieilours"
+      "pseudo": "pseudo facebook"
     },
     {
       "name": "instagram",
-      "pseudo": "@vieilours_"
+      "pseudo": "pseudo instagram"
     },
     {
       "name": "youtube",
-      "pseudo": "lataniere"
+      "pseudo": "pseudo youtube"
     },
     {
       "name": "twitter",
-      "pseudo": "@vieilours"
+      "pseudo": "pseudo twitter"
     }
   ]
 }
