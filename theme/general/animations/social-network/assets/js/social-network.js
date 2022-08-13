@@ -8,12 +8,12 @@ window.onload = function() {
     });
 
     function appear(nbr) {
-        if (json[nbr].pseudo === "") {
-            nbr = nbr + 1;
-        }
-
         if (nbr === json.length) {
             nbr = 0;
+        }
+
+        if (json[nbr].pseudo === "") {
+            nbr = nbr + 1;
         }
 
         let socialNetwork = json[nbr];
