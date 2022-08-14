@@ -2,22 +2,22 @@
   "socialNetworks": [
     {
       "name": "facebook",
-      "pseudo": "pseudo facebook",
+      "pseudo": "pseudo Facebook",
       "img": "facebook.png"
     },
     {
       "name": "instagram",
-      "pseudo": "pseudo instagram",
+      "pseudo": "pseudo Instagram",
       "img": "instagram.png"
     },
     {
       "name": "youtube",
-      "pseudo": "pseudo youtube",
+      "pseudo": "pseudo Youtube",
       "img": "youtube.png"
     },
     {
       "name": "twitter",
-      "pseudo": "pseudo twitter",
+      "pseudo": "pseudo Twitter",
       "img": "twitter.png"
     }
   ]

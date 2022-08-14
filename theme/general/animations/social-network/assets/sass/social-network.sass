@@ -9,22 +9,6 @@ $text-color: white
     display: flex
     position: relative
 
-    &.facebook
-      .logo
-        background-image: url("../img/facebook.png")
-
-    &.instagram
-      .logo
-        background-image: url("../img/instagram.png")
-
-    &.twitter
-      .logo
-        background-image: url("../img/twitter.png")
-
-    &.youtube
-      .logo
-        background-image: url("../img/youtube.png")
-
     .logo
       background-size: contain
       display: none
@@ -39,11 +23,18 @@ $text-color: white
       padding: 5px 15px 5px 120px
       position: absolute
 
+      &.show
+        &::after
+          display: block
+        &::before
+          display: block
+
       &::after
         content: ""
         border-style: solid
         border-width: 68px 20px 0 0
         border-color: $bandeau-color transparent transparent transparent
+        display: none
         height: 0
         position: absolute
         right: -20px
@@ -55,6 +46,7 @@ $text-color: white
         border-style: solid
         border-width: 0 0 68px 20px
         border-color: transparent transparent $bandeau-color transparent
+        display: none
         height: 0
         left: -20px
         position: absolute

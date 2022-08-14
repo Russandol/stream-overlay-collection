@@ -18,6 +18,7 @@ Pour utiliser le compte à rebours, suivez les étapes suivantes :
   "img": "twitter.png"
 }
 ```
+- Supprimer ce contenu si jamais vous ne voulez pas que ce réseau s'affiche
 - Ajoutez le logo du réseau dans le dossier `assets/img`
 - Indiquez le nom du réseau, votre pseudo et le nom de l'image
 - Si jamais le nouveau réseau social ne s'affiche pas, vérifier le contenu
@@ -25,3 +26,7 @@ du fichier json avec ce [validateur en ligne](https://jsonformatter.curiousconce
 - Sur OBS Studio, dans votre scène ajoutez une nouvelle source de type "_navigateur_".
 - Dans les paramètres de la source, cochez "Fichier local" et dans le 
 champ "_URL_" entrez le chemin du fichier, par exemple : `c:/mon-dossier/social-network.html`.
+
+Il est aussi possible d'utiliser cette animation pour afficher seulement des logos
+(pour afficher des partenaires par exemple). Pour ça il suffit de ne pas mettre de
+texte dans le paramètre "pseudo"/
