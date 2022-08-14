@@ -20,10 +20,11 @@ window.onload = function() {
 
         nbr = nbr + 1;
 
-        $('.social-network').addClass(socialNetwork.name);
+
         $('.social-network .text').text(socialNetwork.pseudo);
 
         $('.logo').addClass("animate__tada");
+        $('.logo').css("background-image", "url(\"assets/img/" + socialNetwork.img + "\")");
         $('.logo').css("display", "block");
 
         $('.block-text').addClass("animate__flipInX");
