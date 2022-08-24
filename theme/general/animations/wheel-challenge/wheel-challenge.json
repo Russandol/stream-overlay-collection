@@ -1,0 +1,44 @@
+{
+  "challenges": [
+    {
+      "label": "défi 1",
+      "description": "Description du défi 1"
+    },
+    {
+      "label": "défi 2",
+      "description": "Description du défi 2"
+    },
+    {
+      "label": "défi 3",
+      "description": "Description du défi 3"
+    },
+    {
+      "label": "défi 4",
+      "description": "Description du défi 4"
+    },
+    {
+      "label": "défi 5",
+      "description": "Description du défi 5"
+    },
+    {
+      "label": "défi 6",
+      "description": "Description du défi 6"
+    },
+    {
+      "label": "défi 7",
+      "description": "Description du défi 7"
+    },
+    {
+      "label": "défi 8",
+      "description": "Description du défi 8"
+    },
+    {
+      "label": "défi 9",
+      "description": "Description du défi 9"
+    },
+    {
+      "label": "défi 10",
+      "description": "Description du défi 10"
+    }
+  ]
+}

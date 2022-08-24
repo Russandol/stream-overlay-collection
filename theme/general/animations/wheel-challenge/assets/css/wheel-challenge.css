@@ -1,0 +1,15 @@
+.container {
+  align-items: center;
+  display: flex;
+  height: 500px;
+  width: 1000px;
+}
+.container #description {
+  margin-left: 30px;
+}
+.container #description h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=wheel-challenge.css.map */

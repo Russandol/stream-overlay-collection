@@ -15,6 +15,7 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 - confetti : un peu de festival dans votre stream
 - countdown : un compte à rebours
 - social-network : bandeau animé des différents pseudo des réseaux sociaux
+- wheel-challenge : la roue des défis !
 
 #### Webcam masks
 
