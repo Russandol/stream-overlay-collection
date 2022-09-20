@@ -1,0 +1,28 @@
+@import colors
+@import functions
+@import variables
+
+@for $i from 1 through $maxItems
+  $translateY: randomBetween(-100, -500) * 1%
+
+  @keyframes blob-#{$i}
+    0%, 100%
+      transform: translateY(0)
+    50%
+      transform: translateY($translateY)
+
+@keyframes changeColor
+  0%
+    background: $yellow
+  33%
+    background: $orange
+  66%
+    background: $red
+  100%
+    background: $yellow
+
+@keyframes wobble
+  50%
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%
+  100%
+    border-radius: 38% 52% 75% 36% / 50% 40% 50% 60%

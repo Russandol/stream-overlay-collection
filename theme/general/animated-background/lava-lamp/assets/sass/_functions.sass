@@ -1,0 +1,5 @@
+@function randomBetween($min, $max)
+  $rand: random()
+  $random: $min + floor($rand * (($max - $min) + 1))
+
+  @return $random

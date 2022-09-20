@@ -7,7 +7,7 @@ Ce pack de ressource est fait pour vous.
 
 Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 
-### Général 
+### Général
 
 #### Animations
 
@@ -31,11 +31,12 @@ Pour faciliter l'organisaton des ressources, celles-ci sont rangées par thème.
 - ink splash
 - rorschach ink
 
-#### Fond animé
+#### Fonds animés
 
 - floating color orbs
 - glow sticks
 - gradient-color
+- lava-lamp
 - matrix effect
 - parallax pixel stars
 - sakura fall

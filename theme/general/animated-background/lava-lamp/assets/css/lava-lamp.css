@@ -1,0 +1,295 @@
+@keyframes blob-1 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-206%);
+  }
+}
+@keyframes blob-2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-263%);
+  }
+}
+@keyframes blob-3 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-112%);
+  }
+}
+@keyframes blob-4 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-258%);
+  }
+}
+@keyframes blob-5 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-191%);
+  }
+}
+@keyframes blob-6 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-123%);
+  }
+}
+@keyframes blob-7 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-210%);
+  }
+}
+@keyframes blob-8 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-269%);
+  }
+}
+@keyframes blob-9 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+}
+@keyframes blob-10 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-352%);
+  }
+}
+@keyframes blob-11 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-199%);
+  }
+}
+@keyframes blob-12 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-272%);
+  }
+}
+@keyframes blob-13 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-304%);
+  }
+}
+@keyframes blob-14 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-416%);
+  }
+}
+@keyframes blob-15 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-110%);
+  }
+}
+@keyframes changeColor {
+  0% {
+    background: #f6aa1c;
+  }
+  33% {
+    background: #bc3908;
+  }
+  66% {
+    background: #941b0c;
+  }
+  100% {
+    background: #f6aa1c;
+  }
+}
+@keyframes wobble {
+  50% {
+    border-radius: 42% 58% 70% 30%/45% 45% 55% 55%;
+  }
+  100% {
+    border-radius: 38% 52% 75% 36%/50% 40% 50% 60%;
+  }
+}
+html {
+  background: radial-gradient(ellipse at bottom, #621708, #220901);
+  height: 1080px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.lamp {
+  height: 100vh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  z-index: -1;
+}
+
+.lava {
+  height: 100%;
+  filter: url("#goo");
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.blob {
+  border-radius: 50%;
+  background: #f6aa1c;
+  position: absolute;
+}
+
+.blob:nth-child(1) {
+  animation: wobble 1s ease-in-out alternate infinite, blob-1 ease-in-out 34s infinite, changeColor 25s infinite;
+  bottom: -186px;
+  height: 92px;
+  left: 72px;
+  width: 92px;
+}
+
+.blob:nth-child(2) {
+  animation: wobble 1s ease-in-out alternate infinite, blob-2 ease-in-out 36s infinite, changeColor 25s infinite;
+  bottom: -80px;
+  height: 64px;
+  left: 182px;
+  width: 64px;
+}
+
+.blob:nth-child(3) {
+  animation: wobble 4s ease-in-out alternate infinite, blob-3 ease-in-out 36s infinite, changeColor 25s infinite;
+  bottom: -170px;
+  height: 247px;
+  left: 292px;
+  width: 247px;
+}
+
+.blob:nth-child(4) {
+  animation: wobble 2s ease-in-out alternate infinite, blob-4 ease-in-out 35s infinite, changeColor 25s infinite;
+  bottom: -138px;
+  height: 400px;
+  left: 402px;
+  width: 400px;
+}
+
+.blob:nth-child(5) {
+  animation: wobble 5s ease-in-out alternate infinite, blob-5 ease-in-out 26s infinite, changeColor 25s infinite;
+  bottom: -163px;
+  height: 310px;
+  left: 512px;
+  width: 310px;
+}
+
+.blob:nth-child(6) {
+  animation: wobble 3s ease-in-out alternate infinite, blob-6 ease-in-out 28s infinite, changeColor 25s infinite;
+  bottom: -124px;
+  height: 183px;
+  left: 622px;
+  width: 183px;
+}
+
+.blob:nth-child(7) {
+  animation: wobble 4s ease-in-out alternate infinite, blob-7 ease-in-out 33s infinite, changeColor 25s infinite;
+  bottom: -163px;
+  height: 66px;
+  left: 732px;
+  width: 66px;
+}
+
+.blob:nth-child(8) {
+  animation: wobble 2s ease-in-out alternate infinite, blob-8 ease-in-out 44s infinite, changeColor 25s infinite;
+  bottom: -115px;
+  height: 197px;
+  left: 842px;
+  width: 197px;
+}
+
+.blob:nth-child(9) {
+  animation: wobble 1s ease-in-out alternate infinite, blob-9 ease-in-out 35s infinite, changeColor 25s infinite;
+  bottom: -111px;
+  height: 387px;
+  left: 952px;
+  width: 387px;
+}
+
+.blob:nth-child(10) {
+  animation: wobble 2s ease-in-out alternate infinite, blob-10 ease-in-out 35s infinite, changeColor 25s infinite;
+  bottom: -153px;
+  height: 30px;
+  left: 1062px;
+  width: 30px;
+}
+
+.blob:nth-child(11) {
+  animation: wobble 3s ease-in-out alternate infinite, blob-11 ease-in-out 44s infinite, changeColor 25s infinite;
+  bottom: -124px;
+  height: 372px;
+  left: 1172px;
+  width: 372px;
+}
+
+.blob:nth-child(12) {
+  animation: wobble 2s ease-in-out alternate infinite, blob-12 ease-in-out 45s infinite, changeColor 25s infinite;
+  bottom: -179px;
+  height: 94px;
+  left: 1282px;
+  width: 94px;
+}
+
+.blob:nth-child(13) {
+  animation: wobble 4s ease-in-out alternate infinite, blob-13 ease-in-out 36s infinite, changeColor 25s infinite;
+  bottom: -77px;
+  height: 272px;
+  left: 1392px;
+  width: 272px;
+}
+
+.blob:nth-child(14) {
+  animation: wobble 4s ease-in-out alternate infinite, blob-14 ease-in-out 37s infinite, changeColor 25s infinite;
+  bottom: -54px;
+  height: 33px;
+  left: 1502px;
+  width: 33px;
+}
+
+.blob:nth-child(15) {
+  animation: wobble 3s ease-in-out alternate infinite, blob-15 ease-in-out 35s infinite, changeColor 25s infinite;
+  bottom: -129px;
+  height: 98px;
+  left: 1612px;
+  width: 98px;
+}
+
+/*# sourceMappingURL=lava-lamp.css.map */

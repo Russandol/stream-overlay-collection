@@ -1,0 +1,53 @@
+@import animations
+@import colors
+@import functions
+@import variables
+
+$height: 1080px
+$width: 1920px
+
+html
+  background: radial-gradient(ellipse at bottom, $brownLight, $brownDark)
+  height: $height
+  overflow: hidden
+  width: $width
+
+.lamp
+  height: 100vh
+  left: 50%
+  position: absolute
+  top: 50%
+  transform: translate(-50%, -50%)
+  width: 100vw
+  z-index: -1
+
+.lava
+  height: 100%
+  filter: url("#goo")
+  left: 0
+  position: absolute
+  top: 0
+  width: 100%
+
+.blob
+  border-radius: 50%
+  background: $yellow
+  position: absolute
+
+$start: randomBetween(50, 128)
+
+@for $i from 1 through $maxItems
+  $bottom: randomBetween(-50, -200)
+  $size: randomBetween(30, 400)
+  $speed: randomBetween(25, 45)
+
+  .blob:nth-child(#{$i})
+    $wobbleSpeed: randomBetween(1, 5)
+
+    animation: wobble #{$wobbleSpeed}s ease-in-out alternate infinite, blob-#{$i} ease-in-out #{$speed}s infinite, changeColor 25s infinite
+    bottom: #{$bottom}px
+    height: #{$size}px
+    left: #{$start}px
+    width: #{$size}px
+
+  $start: $start + 110
