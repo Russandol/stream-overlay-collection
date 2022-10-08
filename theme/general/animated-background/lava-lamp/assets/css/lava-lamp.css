@@ -3,7 +3,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-206%);
+    transform: translateY(-316%);
   }
 }
 @keyframes blob-2 {
@@ -11,7 +11,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-263%);
+    transform: translateY(-393%);
   }
 }
 @keyframes blob-3 {
@@ -19,7 +19,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-112%);
+    transform: translateY(-295%);
   }
 }
 @keyframes blob-4 {
@@ -27,7 +27,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-258%);
+    transform: translateY(-406%);
   }
 }
 @keyframes blob-5 {
@@ -35,7 +35,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-191%);
+    transform: translateY(-284%);
   }
 }
 @keyframes blob-6 {
@@ -43,7 +43,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-123%);
+    transform: translateY(-315%);
   }
 }
 @keyframes blob-7 {
@@ -51,7 +51,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-210%);
+    transform: translateY(-244%);
   }
 }
 @keyframes blob-8 {
@@ -59,7 +59,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-269%);
+    transform: translateY(-445%);
   }
 }
 @keyframes blob-9 {
@@ -67,7 +67,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-200%);
+    transform: translateY(-310%);
   }
 }
 @keyframes blob-10 {
@@ -75,7 +75,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-352%);
+    transform: translateY(-494%);
   }
 }
 @keyframes blob-11 {
@@ -91,7 +91,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-272%);
+    transform: translateY(-165%);
   }
 }
 @keyframes blob-13 {
@@ -99,7 +99,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-304%);
+    transform: translateY(-113%);
   }
 }
 @keyframes blob-14 {
@@ -107,7 +107,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-416%);
+    transform: translateY(-423%);
   }
 }
 @keyframes blob-15 {
@@ -115,7 +115,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-110%);
+    transform: translateY(-152%);
   }
 }
 @keyframes changeColor {
@@ -173,123 +173,123 @@ html {
 }
 
 .blob:nth-child(1) {
-  animation: wobble 1s ease-in-out alternate infinite, blob-1 ease-in-out 34s infinite, changeColor 25s infinite;
-  bottom: -186px;
-  height: 92px;
-  left: 72px;
-  width: 92px;
+  animation: wobble 2s ease-in-out alternate infinite, blob-1 ease-in-out 27s infinite, changeColor 25s infinite;
+  bottom: -154px;
+  height: 80px;
+  left: 86px;
+  width: 80px;
 }
 
 .blob:nth-child(2) {
-  animation: wobble 1s ease-in-out alternate infinite, blob-2 ease-in-out 36s infinite, changeColor 25s infinite;
-  bottom: -80px;
-  height: 64px;
-  left: 182px;
-  width: 64px;
+  animation: wobble 3s ease-in-out alternate infinite, blob-2 ease-in-out 38s infinite, changeColor 25s infinite;
+  bottom: -123px;
+  height: 136px;
+  left: 196px;
+  width: 136px;
 }
 
 .blob:nth-child(3) {
-  animation: wobble 4s ease-in-out alternate infinite, blob-3 ease-in-out 36s infinite, changeColor 25s infinite;
-  bottom: -170px;
-  height: 247px;
-  left: 292px;
-  width: 247px;
+  animation: wobble 5s ease-in-out alternate infinite, blob-3 ease-in-out 31s infinite, changeColor 25s infinite;
+  bottom: -85px;
+  height: 295px;
+  left: 306px;
+  width: 295px;
 }
 
 .blob:nth-child(4) {
-  animation: wobble 2s ease-in-out alternate infinite, blob-4 ease-in-out 35s infinite, changeColor 25s infinite;
-  bottom: -138px;
-  height: 400px;
-  left: 402px;
-  width: 400px;
+  animation: wobble 1s ease-in-out alternate infinite, blob-4 ease-in-out 36s infinite, changeColor 25s infinite;
+  bottom: -75px;
+  height: 200px;
+  left: 416px;
+  width: 200px;
 }
 
 .blob:nth-child(5) {
-  animation: wobble 5s ease-in-out alternate infinite, blob-5 ease-in-out 26s infinite, changeColor 25s infinite;
-  bottom: -163px;
-  height: 310px;
-  left: 512px;
-  width: 310px;
+  animation: wobble 4s ease-in-out alternate infinite, blob-5 ease-in-out 44s infinite, changeColor 25s infinite;
+  bottom: -67px;
+  height: 159px;
+  left: 526px;
+  width: 159px;
 }
 
 .blob:nth-child(6) {
-  animation: wobble 3s ease-in-out alternate infinite, blob-6 ease-in-out 28s infinite, changeColor 25s infinite;
-  bottom: -124px;
-  height: 183px;
-  left: 622px;
-  width: 183px;
+  animation: wobble 4s ease-in-out alternate infinite, blob-6 ease-in-out 41s infinite, changeColor 25s infinite;
+  bottom: -103px;
+  height: 318px;
+  left: 636px;
+  width: 318px;
 }
 
 .blob:nth-child(7) {
-  animation: wobble 4s ease-in-out alternate infinite, blob-7 ease-in-out 33s infinite, changeColor 25s infinite;
-  bottom: -163px;
-  height: 66px;
-  left: 732px;
-  width: 66px;
+  animation: wobble 1s ease-in-out alternate infinite, blob-7 ease-in-out 26s infinite, changeColor 25s infinite;
+  bottom: -66px;
+  height: 131px;
+  left: 746px;
+  width: 131px;
 }
 
 .blob:nth-child(8) {
-  animation: wobble 2s ease-in-out alternate infinite, blob-8 ease-in-out 44s infinite, changeColor 25s infinite;
-  bottom: -115px;
-  height: 197px;
-  left: 842px;
-  width: 197px;
+  animation: wobble 4s ease-in-out alternate infinite, blob-8 ease-in-out 26s infinite, changeColor 25s infinite;
+  bottom: -107px;
+  height: 362px;
+  left: 856px;
+  width: 362px;
 }
 
 .blob:nth-child(9) {
-  animation: wobble 1s ease-in-out alternate infinite, blob-9 ease-in-out 35s infinite, changeColor 25s infinite;
-  bottom: -111px;
-  height: 387px;
-  left: 952px;
-  width: 387px;
+  animation: wobble 4s ease-in-out alternate infinite, blob-9 ease-in-out 35s infinite, changeColor 25s infinite;
+  bottom: -172px;
+  height: 103px;
+  left: 966px;
+  width: 103px;
 }
 
 .blob:nth-child(10) {
-  animation: wobble 2s ease-in-out alternate infinite, blob-10 ease-in-out 35s infinite, changeColor 25s infinite;
-  bottom: -153px;
-  height: 30px;
-  left: 1062px;
-  width: 30px;
+  animation: wobble 3s ease-in-out alternate infinite, blob-10 ease-in-out 33s infinite, changeColor 25s infinite;
+  bottom: -124px;
+  height: 205px;
+  left: 1076px;
+  width: 205px;
 }
 
 .blob:nth-child(11) {
-  animation: wobble 3s ease-in-out alternate infinite, blob-11 ease-in-out 44s infinite, changeColor 25s infinite;
-  bottom: -124px;
-  height: 372px;
-  left: 1172px;
-  width: 372px;
+  animation: wobble 5s ease-in-out alternate infinite, blob-11 ease-in-out 38s infinite, changeColor 25s infinite;
+  bottom: -66px;
+  height: 122px;
+  left: 1186px;
+  width: 122px;
 }
 
 .blob:nth-child(12) {
-  animation: wobble 2s ease-in-out alternate infinite, blob-12 ease-in-out 45s infinite, changeColor 25s infinite;
-  bottom: -179px;
-  height: 94px;
-  left: 1282px;
-  width: 94px;
+  animation: wobble 4s ease-in-out alternate infinite, blob-12 ease-in-out 41s infinite, changeColor 25s infinite;
+  bottom: -138px;
+  height: 291px;
+  left: 1296px;
+  width: 291px;
 }
 
 .blob:nth-child(13) {
-  animation: wobble 4s ease-in-out alternate infinite, blob-13 ease-in-out 36s infinite, changeColor 25s infinite;
-  bottom: -77px;
-  height: 272px;
-  left: 1392px;
-  width: 272px;
+  animation: wobble 2s ease-in-out alternate infinite, blob-13 ease-in-out 40s infinite, changeColor 25s infinite;
+  bottom: -124px;
+  height: 334px;
+  left: 1406px;
+  width: 334px;
 }
 
 .blob:nth-child(14) {
-  animation: wobble 4s ease-in-out alternate infinite, blob-14 ease-in-out 37s infinite, changeColor 25s infinite;
-  bottom: -54px;
-  height: 33px;
-  left: 1502px;
-  width: 33px;
+  animation: wobble 1s ease-in-out alternate infinite, blob-14 ease-in-out 27s infinite, changeColor 25s infinite;
+  bottom: -111px;
+  height: 102px;
+  left: 1516px;
+  width: 102px;
 }
 
 .blob:nth-child(15) {
-  animation: wobble 3s ease-in-out alternate infinite, blob-15 ease-in-out 35s infinite, changeColor 25s infinite;
-  bottom: -129px;
-  height: 98px;
-  left: 1612px;
-  width: 98px;
+  animation: wobble 2s ease-in-out alternate infinite, blob-15 ease-in-out 34s infinite, changeColor 25s infinite;
+  bottom: -194px;
+  height: 72px;
+  left: 1626px;
+  width: 72px;
 }
 
 /*# sourceMappingURL=lava-lamp.css.map */
