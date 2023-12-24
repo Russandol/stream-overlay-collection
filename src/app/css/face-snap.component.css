@@ -1,0 +1,46 @@
+.face-snap-card {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+}
+.face-snap-card img {
+  width: 100%;
+}
+.face-snap-card h2 {
+  margin-bottom: 0;
+}
+.face-snap-card p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.face-snap-card button {
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: lightgray 3px 3px 7px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.face-snap-card button:active {
+  transform: translate(1px, 1px);
+  box-shadow: lightgray 0 0 5px;
+}
+
+.snapped {
+  background-color: rgba(144, 238, 144, 0.4);
+  color: darkgreen;
+}
+.snapped button {
+  box-shadow: lightgreen 3px 3px 7px;
+  color: darkgreen;
+}
+.snapped button:active {
+  box-shadow: lightgreen 0 0 5px;
+}
+
+/*# sourceMappingURL=face-snap.component.css.map */
